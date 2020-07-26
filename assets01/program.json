@@ -1,0 +1,6 @@
+{
+	"script": "program.lua",
+	"scenes": [
+		"/theboy/game.json"
+	]
+}

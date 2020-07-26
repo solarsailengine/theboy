@@ -1,0 +1,38 @@
+{
+    "name": "scene",
+    "entities": [
+        {
+            "active": true,
+            "name": "background",
+            "spriterenderer": {},
+            "staticsprite": {
+                "atlas": "theboy/atlas",
+                "name": "background"
+            },
+            "transform": {
+                "scale": {
+                    "x": 200.0,
+                    "y": 200.0,
+                    "z": 200.0
+                }
+            }
+        },
+        {
+            "name": "theboy",
+            "script": {
+                "path": "theboy/theboy.lua"
+            },
+            "spriterenderer": {},
+            "animatedsprite": {
+                "atlas": "theboy/atlas",
+                "name": "TheBoy/idle"
+            },
+            "transform": {
+                "scale" : {
+                    "x": 1.2,
+                    "y": 1.2
+                }
+            }
+        }
+    ]
+}
