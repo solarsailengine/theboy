@@ -32,8 +32,8 @@ end
 
 function script:on_update()
 	local dt = Time.deltaTime
-	local transform = getcomponent(self.entity, "transform")
-	local animated_sprite = getcomponent(self.entity, "animatedsprite")
+	local transform = getComponent(self.entity, "transform")
+	local animated_sprite = getComponent(self.entity, "animatedsprite")
 	
 	if not transform or not animated_sprite then return end
 	
